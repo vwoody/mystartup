@@ -1,0 +1,60 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+ 
+  /* https://css-tricks.com/perfect-full-page-background-image/ */
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+
+  font-size: 3rem; /*1rem = font size of the html element (for most browsers has a default value of 16px). */
+  color: #e2dbdb ;
+}
+
+hr{
+  
+  border-color: #f05f44 ;
+  border-width: 3px;
+  max-width: 65px;
+  
+}
+
+.buffer{
+
+  height: 10rem; 
+
+}
+
+.btn{
+
+   font-weight: 700; /*This numeric equivalent to "BOLD" */
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+
+.btn-primary{
+  background-color: #f05f44 ;
+  border-color: #f05f44 ;
+
+}
+
+.btn-primary:hover {
+background-color: #ee4b08;
+border-color: #ee4b08;
+border-width: 4px;
+
+}
+.btn-xl {
+
+  padding: 1rem 2rem;
+  
+
+}
+
